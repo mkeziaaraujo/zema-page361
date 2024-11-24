@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon"  href="/public/assets/zema-ico.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zema Condeúba AX-361</title>
+  </head>
+  <body class="background">
+    <article class="card">
+      <section class="card_header">
+        <img class="profile-image" src="/public/assets/zema-logo.png" alt="logo estrela eletrozema"/>
+        <h1 class="card-name">Eletrozema Condeúba-BA</h1>
+        <span>Seja bem-vindo(a)! <br>
+        Fale com um dos nossos consultores:</span>
+      </section>
+      <div class="card_links">
+          <button class="moda" data-modal="moda">🛍️ Moda</button>
+          <button class="moveis" data-modal="moveis">🔌Móveis e Eletros</button>
+          <button class="grana" data-modal="grana">💰Empréstimos e Saque FGTS</button>
+          <button class="financeiro" data-modal="financeiro">👩🏽‍💻 Financeiro</button>
+      </div>
+    </article>
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <h3 id="modal-title">Escolha um consultor:</h3>
+        <button id="whatsapp1" class="btn-whatsapp"></button>
+        <button id="whatsapp2" class="btn-whatsapp"></button>
+        <button class="btn-close">Fechar</button>
+      </div>
+    </div>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
