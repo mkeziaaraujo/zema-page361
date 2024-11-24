@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     const cardButtons = document.querySelectorAll(".card_links button");
   
-    const modalData = {
+    const modalData = { //dados exibidos ao escolher um setor específico
       moda: {
         title: "Moda",
         sellers: [
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ],
       },
     };
-  
+   // captura e acessa os dados da modal
     cardButtons.forEach((button) => {
       button.addEventListener("click", () => {
         const modalType = button.dataset.modal; 
@@ -46,11 +46,11 @@ document.addEventListener("DOMContentLoaded", () => {
         if (data) {
           modalTitle.textContent = `Escolha um consultor para ${data.title}`;
   
-          // Configura o primeiro botão do WhatsApp
+          //direciona ao whatsapp dos respectivos consultores
           whatsapp1Btn.textContent = data.sellers[0].name;
           whatsapp1Btn.onclick = () => window.open(data.sellers[0].whatsapp, "_blank");
   
-          // Configura o segundo botão do WhatsApp
+          
           whatsapp2Btn.textContent = data.sellers[1].name;
           whatsapp2Btn.onclick = () => window.open(data.sellers[1].whatsapp, "_blank");
   
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   
-    // Fechar a modal
+    // Fechar a modal clicando no fechar
     closeModalBtn.addEventListener("click", () => {
       modal.style.display = "none";
     });
