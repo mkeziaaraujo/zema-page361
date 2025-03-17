@@ -11,29 +11,29 @@ document.addEventListener("DOMContentLoaded", () => {
       moda: {
         title: "Moda",
         sellers: [
-          { name: "Iza", whatsapp: "https://wa.me/5577988430603" },
-          { name: "Tânia", whatsapp: "https://wa.me/5577992072969" },
+          { name: "Iza", whatsapp: "" },
+          { name: "Tânia", whatsapp: "" },
         ],
       },
       moveis: {
         title: "Móveis e Eletros",
         sellers: [
-          { name: "Ritamara", whatsapp: "https://wa.me/5577991021861" },
-          { name: "Valdenilto", whatsapp: "https://wa.me/5577991791396" },
+          { name: "Ritamara", whatsapp: "" },
+          { name: "Valdenilto", whatsapp: "" },
         ],
       },
       grana: {
         title: "Empréstimos e Saque FGTS",
         sellers: [
-          { name: "Kezia", whatsapp: "https://wa.me/5577999048223" },
-          { name: "Regina", whatsapp: "https://wa.me/5577999048223" },
+          { name: "Kezia", whatsapp: "" },
+          { name: "Regina", whatsapp: "" },
         ],
       },
       financeiro: {
         title: "Financeiro",
         sellers: [
-          { name: "Kezia", whatsapp: "https://wa.me/5577999048223" },
-          { name: "Regina", whatsapp: "https://wa.me/5577999048223" },
+          { name: "Kezia", whatsapp: "" },
+          { name: "Regina", whatsapp: "" },
         ],
       },
     };
